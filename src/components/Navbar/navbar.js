@@ -12,7 +12,7 @@ class Navigation extends React.Component{
             <Navbar bg="light" variant="light">
             <Navbar.Brand href="#home">LiveALittle</Navbar.Brand>
             <Nav className="mr-auto">
-            <Nav.Link href="#home">Dashboard</Nav.Link>
+            <Nav.Link href="/dashboard">Dashboard</Nav.Link>
             </Nav>
             <Form inline>
             <FormControl type="text" placeholder="Search" className="mr-sm-2" />
