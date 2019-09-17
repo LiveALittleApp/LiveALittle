@@ -10,7 +10,7 @@ class CardBody extends React.Component {
 
         return (
             <div>
-                <Card style={{ width: '25rem' , font: '16px' }}>
+                <Card style={{ width: '25rem' , height:'30rem' }}>
                     <Card.Body>
                         <Card.Title>Account Log In</Card.Title>
                         <Card.Text>

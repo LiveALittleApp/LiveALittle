@@ -1,4 +1,5 @@
 import React from "react";
+import PageWrapper from "../components/PageWrapper/pageWrapper";
 
 
 function Dashboard(){
@@ -6,7 +7,10 @@ function Dashboard(){
     return (
 
         <div>
-            <h1>This is the dashboard page</h1>
+            <PageWrapper>
+
+                
+            </PageWrapper>
         </div>
 
     );
