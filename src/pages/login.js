@@ -1,6 +1,6 @@
 import React from "react";
-import LoginForm from "../components/LoginForm/loginForm";
 import PageWrapper from "../components/PageWrapper/pageWrapper";
+import CardBody from "../components/LoginCard/loginCard";
 
 
 function Login(){
@@ -10,7 +10,8 @@ function Login(){
         <div>
             <h1>This is the login page</h1>
             <PageWrapper>
-            <LoginForm />  
+            <CardBody>
+            </CardBody> 
             </PageWrapper>     
         </div>
 

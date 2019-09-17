@@ -2,7 +2,7 @@ import React from "react";
 import { Form, Button } from "react-bootstrap";
 
 
-class LoginFrom extends React.Component {
+class LoginForm extends React.Component {
 
     render() {
 
@@ -18,10 +18,10 @@ class LoginFrom extends React.Component {
                     <Form.Control type="password" placeholder="Password" />
                 </Form.Group>
                 <Form.Group controlId="formBasicCheckbox">
-                    <Form.Check type="checkbox" label="Check me out" />
+                    <Form.Check type="checkbox" label="Remember Me" />
                 </Form.Group>
                 <Button variant="primary" type="submit">
-                    Submit
+                    Log In
                  </Button>
             </Form>
         )
@@ -29,4 +29,4 @@ class LoginFrom extends React.Component {
 
 }
 
-export default LoginFrom;
+export default LoginForm;
